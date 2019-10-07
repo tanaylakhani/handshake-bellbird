@@ -1,0 +1,7 @@
+<h1>Editing Alarm</h1>
+
+<%= render 'form', alarm: @alarm %>
+
+<%= link_to 'Show', @alarm %> |
+<%= link_to 'Destroy', @alarm, method: :delete, data: { confirm: 'Are you sure?' } %> |
+<%= link_to 'Back', alarms_path %>

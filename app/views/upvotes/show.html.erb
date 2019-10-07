@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Alarm:</strong>
+  <%= @upvote.alarm %>
+</p>
+
+<p>
+  <strong>Session:</strong>
+  <%= @upvote.session_id %>
+</p>
+
+<%= link_to 'Edit', edit_upvote_path(@upvote) %> |
+<%= link_to 'Back', upvotes_path %>
